@@ -1,0 +1,43 @@
+@media (max-width:640px) {
+    .container {
+        grid-template-areas:
+            "community"
+            "subscription"
+            "why";
+    }
+
+    .community{
+        width: 31rem;
+        height: 26.8rem;
+        padding: 2.5rem;
+    }
+
+    .community .title{
+        font-size: 2rem;
+    }
+
+    .community .subtitle{
+        font-size: 1.6rem;
+    }
+    .community .p{
+        font-size: 1.4rem;
+    }
+
+    .subscription{
+        border-bottom-left-radius: 0;
+        padding: 2.5rem;
+        width: 31rem;
+        height: 23rem;
+    }
+
+    .subscription .sign-btn{
+        padding: 1.2rem 10rem;
+    }
+
+    .why-us{
+        border-bottom-left-radius: 1rem;
+        width: 31rem;
+        height: 23rem;
+        padding: 2.5rem 8.1rem 2.5rem 2.5rem;
+    }
+}

@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    background-color: hsla(203, 44%, 93%, 0.929);
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "community community"
+    "subscription why";
+}
+
+.community{
+    grid-area: community;
+    background-color: var(--White);
+    padding: 4.2rem;
+    width: 63.5rem;
+    height: 21.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.community .title{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--Cyan);
+    margin-bottom: 2.4rem;
+}
+
+.community .subtitle{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--BrightYellow);
+    margin-bottom: 1.2rem;
+}
+
+.community .p{
+    font-size: 1.6rem;
+    color: var(--GrayishBlue);
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+.subscription{
+    grid-area: subscription;
+    background-color: var(--Cyan);
+    width: 31.75rem;
+    height: 25.8rem;
+    border-bottom-left-radius: 1rem;
+    padding: 4rem;
+}
+
+.subscription .title{
+    color: var(--White);
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.subscription .p-price{
+    color: var(--LightGray);
+    font-size: 1.6rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.subscription .price{
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--White);
+}
+
+.subscription .p{
+    color: var(--White);
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.subscription .sign-btn{
+    background-color: var(--BrightYellow);
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--White);
+    padding: 1.2rem 8.9rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.why-us{
+    grid-area: why;
+    background-color: hsla(179, 61%, 46%, 0.857);
+    width: 31.75rem;
+    height: 25.8rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4rem 8.1rem 4rem 4rem;
+}
+
+.why-us .title{
+    color: var(--White);
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.why-us .p{
+    color: var(--LightGray);
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 2rem;
+}
